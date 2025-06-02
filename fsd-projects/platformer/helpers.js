@@ -370,11 +370,11 @@ function deathOfPlayer() {
     canvas.width / 2,
     canvas.height / 2
   );
-  ctx.fillStyle = "black";
+  ctx.fillStyle = "red";
   ctx.font = "800% serif";
   ctx.fillText(
-    "You are dead",
-    canvas.width / 4,
+    "You Lost LOL",
+    canvas.width / 4.3,
     canvas.height / 6 + canvas.height / 5,
     (canvas.width / 16) * 14
   );
