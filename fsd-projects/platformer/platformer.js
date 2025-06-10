@@ -42,12 +42,13 @@ $(function () {
 
 
     // TODO 3 - Create Collectables
-    createCollectable("diamond", 360,650, 0.5, 1 );
-    createCollectable("grace",   160,250, 0.5, 1 );
-    createCollectable("steve", 490,250, 0.5, 1 );
-    createCollectable("database", 560,420, 0.5, 1 );
-    createCollectable("database", 560,450, 0.5, 1 );
-    createCollectable("max", 990,150, 0.5, 1 );
+    createCollectable("goldcoin", 360,650, 0.5, 1 );
+    createCollectable("goldcoin",   160,250, 0.5, 1 );
+    createCollectable("goldcoin", 490,250, 0.5, 1 );
+    createCollectable("goldcoin", 560,420, 0.5, 1 );
+    createCollectable("goldcoin", 560,450, 0.5, 1 );
+    createCollectable("goldcoin", 990,150, 0.5, 1 );
+   
 
 
 
