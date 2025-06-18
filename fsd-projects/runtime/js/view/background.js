@@ -31,6 +31,7 @@ var background = function (window) {
         // TODO (several):
       var tree;
       var buildings = [];
+    
       
         // called at the start of game and whenever the page is resized
         // add objects for display in background. draws each image added to the background once
@@ -40,8 +41,10 @@ var background = function (window) {
             // TODO 1:
             // this currently fills the background with an obnoxious yellow;
             // you should modify both the height and color to suit your game
-            var backgroundFill = draw.rect(canvasWidth,groundY,'#191970');
-            background.addChild(backgroundFill);
+            
+            var backgroundFill = draw.rect(canvasWidth,groundY, "#4d00ff");
+            background.addChild(backgroundFill)
+            
             
             // TODO 2: - Add a moon and starfield
             
@@ -62,21 +65,26 @@ var background = function (window) {
 
             
             // TODO 4: Part 1 - Add buildings!     Q: This is before TODO 4 for a reason! Why?
-            for (var i = 0; i < 5; i++) {
+            /* for (var i = 0; i < 5; i++) {
             var buildingColors = ["blue","green", "purple","yellow","teal"];
-            var buildingHeight = 200;
+            var buildingHeight = 350;
             var building = draw.rect(75, buildingHeight, buildingColors[i], "Black", 1);
             building.x = 200 * i;
             building.y = groundY - buildingHeight;
             background.addChild(building);
             buildings.push(building);
-}
             
+}
+            */
             // TODO 3: Part 1 - Add a tree
             tree = draw.bitmap("img/tree.png");
             tree.x = 300;
             tree.y = groundY - 225;
             background.addChild(tree);
+
+           
+
+           
             
         } // end of render function - DO NOT DELETE
         
