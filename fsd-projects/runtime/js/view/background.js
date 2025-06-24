@@ -65,8 +65,8 @@ var background = function (window) {
 
             
             // TODO 4: Part 1 - Add buildings!     Q: This is before TODO 4 for a reason! Why?
-            /* for (var i = 0; i < 5; i++) {
-            var buildingColors = ["blue","green", "purple","yellow","teal"];
+             for (var i = 0; i < 10; i++) {
+            var buildingColors = ["orange","orange", "orange","orange","orange", "orange","orange", "orange","orange","orange"];
             var buildingHeight = 350;
             var building = draw.rect(75, buildingHeight, buildingColors[i], "Black", 1);
             building.x = 200 * i;
@@ -75,7 +75,7 @@ var background = function (window) {
             buildings.push(building);
             
 }
-            */
+          
             // TODO 3: Part 1 - Add a tree
             tree = draw.bitmap("img/tree.png");
             tree.x = 300;
